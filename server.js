@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+rea﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "$";
 
@@ -8,7 +8,8 @@ client.on('ready', () => {
    console.log(`----------------`);
       console.log(`Desert Bot- Script By : EX Clan`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By
+: EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`Depth | $bc`,"http://twitch.tv/Death Shop")
@@ -72,8 +73,8 @@ client.on("message", async message => {
                             m.react("✅")
                             .then(() => m.react("❌"));
 
-                            let yesFilter = (reaction, user) => reaction.emoji.name == "✅" && user.id == message.author.id;
-                            let noFiler = (reaction, user) => reaction.emoji.name == "❌" && user.id == message.author.id;
+                            let yesFilter = (reaction, user) => RELAXING[ZM].emoji.name == "✅" && user.id == message.author.id;
+                            let noFiler = (reaction, user) => RELAXING[ZM].emoji.name == "❌" && user.id == message.author.id;
 
                             let yes = m.createReactionCollector(yesFilter);
                             let no = m.createReactionCollector(noFiler);
